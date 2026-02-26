@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monitor IoT</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+        .valor {
+            font-size: 30px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Sensores Sucursal 1</h1>
+        <div class="valor">
+            Temperatura: {{ temperatura }} °C
+        </div>
+        <div class="valor">
+            Distancia: {{ distancia }} cm
+        </div>
+    </div>
+
+</body>
+</html>
